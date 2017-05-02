@@ -1,0 +1,30 @@
+.bsSolution{ width:1080px; margin:0 auto;}
+.main-left{float:left; position:relative; width:720px;}
+.main-left .pic{ position:relative; height:124px;  margin-bottom:50px;}
+.main-left .pic .leftline{width:7px; height:126px; position:absolute; left:0; bottom:0; background:url("../images/solution100.png") no-repeat left center;}
+.main-left .pic .bgpic{position:absolute; z-index:10; background:url("../images/solution1-0.jpg") no-repeat center; width:288px; height:124px; left:40px; bottom:0;}
+.main-left .pic .bgpic2{position:absolute; z-index:1; background:url("../images/solution1-1_01.png") no-repeat ; width:288px; height:124px; left:40px; bottom:0;}
+.main-left .solu{position:absolute; right:0; top:0; height:124px; width:350px;
+ }
+.main-left .solu h4 a{font-size:18px; }
+.main-left .solu h4 a:hover{text-decoration:underline;}
+.main-left .solu p{line-height:22px; max-height:44px; overflow:hidden; color: #525252;}
+.main-left .solu>a {color:#777; float:right; margin-top:10px;}
+.main-left .solu>a i{ position:relative; display:inline-block; width:5px; height:10px; background:url("../images/solutionDot_06.png") no-repeat center; margin:10px 0 0 10px; }
+.main-left .page{ position:absolute; bottom:-60px; right:0;}
+.main-right{ width:296px; float:right;}
+.main-right>label input{height:40px; line-height:40px; float:left; border:0; }
+.main-right>label input[type="text"]{background:#f1f5f7; width:253px; text-indent:10px; color:#000;}
+.main-right>label input[type="button"]{background:#3280a9; width:43px; display:inline-block; background:url("../images/solution0s_03.png") no-repeat center;}
+.main-right>h4{ line-height:62px; height:62px; font-size:18px;}
+.main-right .resolvent{ padding:27px 0; background:#f1f5f7;}
+.solu-item a{ display:block; height:85px; line-height:85px; }
+.solu-item a:hover span{text-decoration:underline;}
+.solu-item .solu-pic{display:inline-block; width:96px; height:65px; border-radius:2px; margin:0 33px; background:url(../images/solutionRt1_01.jpg) no-repeat center; padding:8px 0; float:left;}
+.solu-item2 .solu-pic{ background:url("../images/solutionRt2_01.jpg") no-repeat center}
+.solu-item3 .solu-pic{ background:url("../images/solutionRt3_01.jpg") no-repeat center}
+.solu-item4 .solu-pic{ background:url("../images/solutionRt4_01.jpg") no-repeat center}
+.solu-item5 .solu-pic{ background:url("../images/solutionRt5_01.jpg") no-repeat center}
+.solu-item6 .solu-pic{ background:url("../images/solutionRt6_01.jpg") no-repeat center}
+.solu-item  a span{ font-size:17px;}
+.solu-item  a i{ position:relative; display:inline-block; width:5px; height:10px; background:url("../images/solutionDot_06.png") no-repeat center; margin:10px 0 0 10px; }

@@ -1,0 +1,14 @@
+.main { padding:100px 0 ; }
+.blockIn{display:block!important;}
+.main-r{ width:730px;}
+.main-rInner{ width:100%; display:none;}
+.main-r .main-pic{ width:100%; height:350px; }
+.main-r .main-pic2{ width:100%; height:720px; }
+.main-r .main-pic3{ width:100%; height:772px; }
+.main-r .main-pic4{ width:100%; height:556px; }
+.main-r .main-pic5{ width:100%; height:732px; }
+.main-r .main-pic4 h4 {padding-top:90px; }
+.main-r .main-pic5 h4 {padding-top:50px; }
+.main-r table{ width:700px; border:1px solid grey; border-collapse:collapse; border-spacing:0;}
+.main-r table caption{ width:698px; border:1px solid grey; text-align: center; height:30px; line-height:30px; font-size:16px;}
+.main-r table td{  display:table-cell; width:50%; border:1px solid grey;text-align: left; font-size:14px; }

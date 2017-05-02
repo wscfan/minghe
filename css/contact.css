@@ -1,0 +1,4 @@
+.proWidth div{ width:100%; }
+.proWidth div p{ width:45%; display:inline-block;}
+.proWidth .bottomline{border-bottom:1px dashed #898989; height:50px;}
+.proWidth h3{margin-top:30px; }

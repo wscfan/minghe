@@ -1,0 +1,13 @@
+.main .proWidth img{ float:none; display:block;}
+.main .proTitle { height:40px; line-height:30px; margin:10px 0; font-size:26px; border-bottom:1px solid #eee\9; position:relative;}
+.main .proTitle i{ margin:10px 0; font-size:26px; }
+.main .proTitle span{
+    position:absolute; bottom:1px; left:0; width:100%; height:1px;
+    background:linear-gradient(left ,#000 ,#bbb,#fff);
+    background:-webkit-linear-gradient(left ,#000 ,#bbb,#fff);
+    background:-o-linear-gradient(left ,#000 ,#bbb,#fff);
+    background:-ms-linear-gradient(left ,#000 ,#bbb,#fff);
+    background:-moz-linear-gradient(left ,#000 ,#bbb,#fff);
+}
+.main .proWidth h4{ margin-bottom:10px; }
+.main .proWidth p{line-height:30px; color:#4e4e4e;}

@@ -1,0 +1,42 @@
+body, h1, h2, h3, h4, h5, h6, p, dl, dd, dt, input, ul, ol, table, form, label { margin:0; padding:0; }
+a { text-decoration:none; color:#000; outline:none;}
+img { float:left; outline:none; border:none; }
+li { list-style: none; }
+em,i{font-style:normal;}
+.fl{ float:left;}
+.fr{ float:right;}
+body{ font-size:14px;  font-family:"Microsoft Yahei";}
+.clear { display:block; height:0; font-size:0; clear:both; }
+.bsWidth{ width:1020px; margin:0 auto; }
+.header { height:70px; background: rgba(11, 22, 30, 0); background:#0B161E\9; filter:Alpha(opacity=80); transition:all 1.5s; width:100%; position:fixed; top:0; left:0; z-index:20; }
+.colorIn{ animation:colorIn 1s; animation-fill-mode:forwards; }
+.colorOut{ animation:colorOut 1s; animation-fill-mode:forwards; }
+.logo{ padding-left:40px;}
+.logo a{ display:block; width:186px; height:53px; padding-top:17px; }
+.h-nav{ position:relative; left:-20%;}
+.h-nav>li{ float:left; margin:0 5px; }
+.h-nav>li .h-navLi{ padding:0 40px; height:70px; line-height:70px; color:#fff; text-align: center; cursor:pointer;}
+.h-nav2nd{ display:none;  background: #232323;}
+.h-nav2nd li{  display:block; width:100%; }
+.h-nav2nd li a{ display:block; width:100%; height:40px; line-height:40px; font-size:12px; text-align: center;  background: rgba(11, 22, 30,.1); color:#fff; }
+.hoverLi{background:rgba(11, 22, 30,.7)}
+.footerline{ background:#3280a9;}
+.footerline .bsWidth{ height:60px; line-height:60px; color:#fff;}
+.footerline em{display:inline-block; padding-top:14px; text-align:center; font-size:15px; max-width:80px; line-height:18px; word-break: break-all;}
+.footerline span{font-size:32px; margin-left:45px; }
+.footerline a{ display: inline-block; width:36px; height:36px; margin:12px 20px 0;}
+.footerline .wxA{background:url("../images/weicopngOut_01.png")  no-repeat; }
+.footerline .snA{background:url("../images/sinapngOut_01.png")  no-repeat ; }
+.footer{ background:#2b363a; }
+.footer .bsWidth{ height:400px;  color:#6b7375; }
+.bmLogo{ margin-top:70px; }
+.bmLogo span{ display:block; line-height:26px; font-size:13px; margin:6px 0;}
+.bmLogo .phone{padding-left:20px; background:url("../images/footericon_03.png") no-repeat left center;}
+.bmLogo .email{padding-left:20px; background:url("../images/footericon_06.png") no-repeat left center;}
+.bmLogo>div{ width:160px; height:105px; background:url("../images/footerLogo_01.png") no-repeat center; }
+.footer .fr>li{ margin:100px 30px 0; float:left;}
+.footer .fr .f-navLi{ font-weight:bold; line-height:30px; color: #a0a8aa; }
+.footer .f-nav2nd li{font-size:12px; line-height:27px; }
+.footer .f-nav2nd a:hover{color: #a0a8aa;}
+.bottom{ height:60px; background:#252a2c; text-align:center;  color:#6b7375; font:12px/60px 'Microsoft Yahei';}
+.toTop{ background:url("../images/top_01.png") no-repeat center ; z-index:100; width:65px; height:65px; border-radius:4px; position:fixed; bottom:40px; right:40px; cursor:pointer; }

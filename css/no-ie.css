@@ -1,0 +1,45 @@
+.banner {
+    -moz-transform-style: preserve-3d;
+    -moz-perspective: 1000px;
+    -ms-transform-style: preserve-3d;
+    -ms-perspective: 1000px;
+    -o-transform-style: preserve-3d;
+    -o-perspective: 1000px;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+}
+
+.board li {
+    transform-origin: center 40%;
+    transform: rotateY(-32deg) translateZ(-200px);
+    animation: roll 1s;
+    transition: all 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes colorIn {
+    0% {
+        background: rgba(11, 22, 30, 0)
+    }
+    100% {
+        background: rgba(11, 22, 30, .9)
+    }
+}
+
+@keyframes colorOut {
+    0% {
+        background: rgba(11, 22, 30, .9)
+    }
+    100% {
+        background: rgba(11, 22, 30, 0)
+    }
+}
+
+@keyframes roll {
+    0% {
+        transform: rotateY(-22deg) translateZ(-200px)
+    }
+    100% {
+        transform: rotateY(0deg) translateZ(0px)
+    }
+}

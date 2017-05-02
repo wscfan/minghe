@@ -1,0 +1,4 @@
+.proWidth h4, .proWidth p{ width:80%;}
+table {border:1px solid #4e4e4e; color:#4e4e4e; border-spacing:0; border-collapes:collapse; width:80%;}
+table th,td{border:1px solid #4e4e4e; color:#4e4e4e; text-align:center; padding:10px 5px;}
+.main .proWidth table td p{width:100%; text-align: left; text-indent:20px; }
